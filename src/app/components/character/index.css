@@ -1,0 +1,43 @@
+.card {
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.card h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-img {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px outset #AEBDCA;
+}
+
+.favorite {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.isFavorite {
+    background-color: #1597BB;
+    color: white;
+    text-align: center;
+    margin-left:  10px;
+    border: 1px outset white;
+    border-radius: 50%;
+    box-shadow: none;
+    width: 20%;
+    height: 25%;
+}
+
+.notFavorite {
+    background-color: red;
+    color: white;
+    margin-left:  10px;
+    border: 1px outset white;
+    border-radius: 50%;
+    box-shadow: none;
+    width: 20%;
+    height: 25%;
+}
