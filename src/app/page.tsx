@@ -5,9 +5,9 @@ import queryClient from './queryClient';
 
 export default function Home() {
    return (
-    <QueryClientProvider client={queryClient}>
-      <MyApp />
-    </QueryClientProvider>
+   <div>
+    <MyApp />
+   </div>
    )
 }
 
